@@ -23,7 +23,7 @@ import unittest
 
 
 def run_this(args):
-    return args
+    return True
 
 
 # DO NOT TOUCH THE BELOW CODE
