@@ -23,7 +23,9 @@ import unittest
 
 
 def stairway_to_heaven(nums):
-    pass
+    for i in range(len(nums)):
+        nums[i]=nums[i]+i
+    return nums
 
 # DO NOT TOUCH THE BELOW CODE
 # pylint: disable=unused-variable,line-too-long
